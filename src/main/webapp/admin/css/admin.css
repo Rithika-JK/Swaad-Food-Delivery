@@ -1,0 +1,133 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+display:flex;
+background:#f4f6f9;
+}
+
+.sidebar{
+width:240px;
+height:100vh;
+background:#222;
+padding:30px 20px;
+position:fixed;
+}
+
+.sidebar h2{
+color:white;
+margin-bottom:35px;
+}
+
+.sidebar a{
+display:block;
+color:white;
+text-decoration:none;
+padding:14px;
+margin:8px 0;
+border-radius:8px;
+transition:.3s;
+}
+
+.sidebar a:hover{
+background:#FC8019;
+}
+
+.main{
+margin-left:260px;
+padding:40px;
+width:100%;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.card h2{
+margin-bottom:15px;
+color:#444;
+}
+
+.card p{
+font-size:35px;
+font-weight:bold;
+color:#FC8019;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:30px;
+    background:#fff;
+}
+
+table th{
+    background:#FC8019;
+    color:#fff;
+    padding:14px;
+}
+
+table td{
+    padding:14px;
+    border-bottom:1px solid #eee;
+}
+
+table tr:hover{
+    background:#fafafa;
+}
+table a{
+    background:#e53935;
+    color:#fff;
+    padding:8px 15px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:14px;
+    transition:.3s;
+}
+
+table a:hover{
+    background:#c62828;
+}
+
+table b{
+    color:#2e7d32;
+}
+.admin-table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+.admin-table th,
+.admin-table td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:left;
+}
+
+.admin-table th{
+    background:#FC8019;
+    color:white;
+}
+
+.admin-table tr:nth-child(even){
+    background:#f9f9f9;
+}
+
+.admin-table tr:hover{
+    background:#fff3e6;
+}
